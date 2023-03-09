@@ -44,16 +44,20 @@ def main(args):
     xp = np.linspace(start=0, stop=a.shape[1], num=200)
     yp = np.poly1d(z)(xp)
 
+    # filter out of image points for visualization
     idx = (yp >= 0) & (yp < a.shape[0])
 
-    plt.imshow(a)
-    plt.plot(xp[idx], yp[idx], color="red")
+    plt.imshow(img.convert("LA"), cmap="gray")
+    plt.plot(xp[idx], yp[idx], color="blue")
+    plt.axis('off')
+    fig = plt.gcf()
     plt.show()
 
     print("Save? [y/n]")
     if input() == "y":
         with open(source_file, "w") as f:
             f.write(template(z))
+        fig.savefig("docs/fit.png", bbox_inches="tight")
         print(f"Saved to {source_file}")
     else:
         print("Exiting")

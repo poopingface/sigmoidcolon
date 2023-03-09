@@ -1,5 +1,7 @@
 # Sigmoid Colon
 
+![](docs/fit.png)
+
 The biologically inspired activation function.
 
 ## Usage
@@ -32,6 +34,6 @@ y = sigmoidcolon(x)
 Not satisfied with the function? Redo it with:
 
 ```bash
-python scripts/codegen.py sigmoidcolon.png
+python scripts/codegen.py docs/sigmoidcolon.png
 ```
 
