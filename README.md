@@ -16,6 +16,14 @@
 
 The biologically inspired activation function.
 
+## Installation
+
+Install with pip:
+
+```bash
+pip install sigmoidcolon
+```
+
 ## Usage
 
 Class version
