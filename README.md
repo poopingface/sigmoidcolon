@@ -34,6 +34,10 @@ y = sigmoidcolon(x)
 Not satisfied with the function? Redo it with:
 
 ```bash
+# install dev requirements
+pip install Pillow numpy matplotlib
+
+# run code generation tool
 python scripts/codegen.py docs/sigmoidcolon.png
 ```
 
