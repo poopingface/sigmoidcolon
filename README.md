@@ -1,6 +1,18 @@
 # Sigmoid Colon
 
-![](docs/fit.png)
+<p align="center">
+    <a href="https://github.com/poopingface/sigmoidcolon/blob/main/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/sigmoidcolon/bidet.svg?color=blue">
+    </a>
+    <a href="https://poopingface.github.io">
+        <img alt="Website" src="https://img.shields.io/website/http/poopingface.github.io/index.html?down_color=red&down_message=offline&up_message=online">
+    </a>
+    <a href="https://github.com/poopingface/sigmoidcolon/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/poopingface/sigmoidcolon.svg">
+    </a>
+</p>
+
+<img src="docs/fit.png" height=256><img src="extras/mnist_accuracy.png" height=256>
 
 The biologically inspired activation function.
 
