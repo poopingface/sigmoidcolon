@@ -19,6 +19,39 @@
   <h2>Abstract</h2>
   <p>Detailed (toilet) paper coming soon.</p>
 </div>
-    
+
+<h2>Introduction</h2>
+
+<h2>Methodology</h2>
+
+<h3>Tracing Human Physiology</h3>
+<p>
+    In order to achieve the best performance, we must obtain an accurate
+    2-dimensional path of the human sigmoid colon. We facilitate this by
+    developing an interactive tool, which allows medical professionals to trace
+    the path of the sigmoid colon on patient MRI scans. The extension of this
+    traced path to cover the domain \((-\infty, \infty)\) will serve as our
+    activation function.
+</p>
+
+<figure>
+    <img src="./tool.png" alt="tracing tool">
+    <figcaption><strong>Figure 1:</strong>
+        Tracing tool in use on an image<label for="sn-1" class="sidenote-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="sidenote-toggle" />
+            <span class="sidenote">
+                For confidentiality reasons, we demonstrate the use of the tool with an articist rending of the colon instead of actual patient data.
+            </span>
+        of the colon.</figcaption>
+
+</figure>
+
+<h3>Polynomial Fit</h3>
+
+<p>To maintain differentiability and improve run time efficiency, we replace the
+traced colon function with a polynomial fit. This fit gives us the final equation for our activation function:</p>
+<p>$$\sigma_\text{colon}(x) = -0.000198382 * x ^ 3 + 0.133785 * x ^ 2 + -29.0015 * x + 2345.68$$</p>
+
+<h2>Conclusion</h2>
+
 </body>
 </html>
