@@ -34,8 +34,8 @@ from sigmoidcolon import SigmoidColon
 
 model = nn.Sequential(
     nn.Linear(784, 64),
-    SigmoidColon()
-    nn.Linear(64, 10)
+    SigmoidColon(),
+    nn.Linear(64, 10),
 )
 ```
 
