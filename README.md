@@ -1,4 +1,4 @@
-# Sigmoid Colon
+# :poop: Sigmoid Colon
 
 <p align="center">
     <a href="https://github.com/poopingface/sigmoidcolon/blob/main/LICENSE">
